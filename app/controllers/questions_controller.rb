@@ -3,8 +3,8 @@ class QuestionsController < ApplicationController
 		@title = "Questions";
 	end
 
-	def new 
-	
+	def new
+	  @question = Question.new
 	end
 
 	def create
